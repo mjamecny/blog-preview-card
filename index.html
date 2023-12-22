@@ -18,5 +18,37 @@
     <link rel="stylesheet" href="style.css" />
     <title>Frontend Mentor | Blog preview card</title>
   </head>
-  <body></body>
+  <body
+    class="h-screen flex justify-center items-center bg-yellow mx-auto px-2.4"
+  >
+    <div
+      class="card bg-white max-w-[300px] p-2.4 rounded-xl flex flex-col items-start border shadow-[7px_6px_0_0_#000] hover:shadow-[11px_10px_0_0_#000] transition-shadow"
+    >
+      <img
+        class="w-full rounded-xl"
+        src="./images/illustration-article.svg"
+        alt="illustration article"
+      />
+      <p
+        class="font-extrabold text-1.2 bg-yellow rounded-sm mt-2.4 px-0.8 py-0.2"
+      >
+        Learning
+      </p>
+      <p class="text-1 mt-1.2">Published 21 Dec 2023</p>
+
+      <h2 class="mt-1.6">
+        <a class="font-extrabold text-1.8 heading" href="#"
+          >HTML & CSS foundations</a
+        >
+      </h2>
+      <p class="text-grey text-1.4 mt-1.6">
+        These languages are the backbone of every website, defining structure,
+        content, and presentation.
+      </p>
+      <div class="flex items-center gap-0.8 mt-1.6">
+        <img class="w-[32px]" src="./images/image-avatar.webp" alt="avatar" />
+        <p class="font-extrabold text-1.2">Greg Hooper</p>
+      </div>
+    </div>
+  </body>
 </html>

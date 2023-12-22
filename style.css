@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .card:hover .heading {
+    color: hsl(47, 88%, 63%);
+    transition: color 0.3s;
+  }
+}
